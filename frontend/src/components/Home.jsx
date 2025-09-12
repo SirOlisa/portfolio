@@ -85,7 +85,7 @@ const SkillIconContainer = styled.div`
 
 
 const Home = () => {
-  const { isDarkMode } = useContext(ThemeContext);
+ // const { isDarkMode } = useContext(ThemeContext);
 
   useEffect(() => {
     // Reveal animation on scroll
@@ -202,5 +202,6 @@ const Home = () => {
     </>
   );
 };
+
 
 export default Home;
