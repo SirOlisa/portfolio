@@ -12,7 +12,7 @@ const About = () => {
       <Row>
         <Col lg={8} className="mx-auto">
           <Card className="border-0 shadow-sm">
-            <Card.Body className="p-5" style={{ textAlign: 'justify' }}>
+            <Card.Body className="p-5" style={{ textAlign: 'text-left' }}>
               <p className="lead">
                 Hello! I'm Madubuike Olisa, a DevOps Engineer with a deep passion for automation, cloud computing, and building scalable, efficient infrastructure.
               </p>

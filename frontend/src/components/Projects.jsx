@@ -169,24 +169,24 @@ const Projects = () => {
   const projects = [
     {
       title: "Kanban Board App",
-      description: "Built a full-stack Kanban Board application packaged into three Docker containers (Postgres DB, Spring Boot backend, Angular frontend) and orchestrated using Docker Compose.",
+      description: "Built a full-stack Kanban Board application packaged into three Docker containers (Postgres DB, Spring Boot backend, Angular frontend) and orchestrated using Docker Compose",
       tags: ["PostgreSQL", "SpringBoot", "Angular", "Docker Compose", "GitHub"],
       github: "https://github.com/SirOlisa/kanban-app",
       outcomes: "Enabled single-command deployment reducing setup time to under 2 minutes; provided full CRUD task management via REST API with Swagger UI documentation; delivering a lightweight, containerized Kanban solution"
     },
     {
       title: "CI/CD Pipeline with GitOps Workflow",
-      description: "Designed and automated a GitOps-driven CI/CD pipeline integrating build, security, and deployment workflows.",
+      description: "Designed and automated a GitOps-driven CI/CD pipeline integrating build, security, and deployment workflows",
       tags: ["Kubernetes", "Snyk", "SonarCloud", "Jenkins", "Docker", "AWS ECR", "GitHub Webhooks"],
       github: "https://github.com/SirOlisa/my-java-project-source-code",
-      outcomes: "Reduced deployment time by 85% through automated image builds, ECR pushes, and Kubernetes rollouts; enhanced code quality and security with SonarCloud and Snyk scans; achieved seamless, webhook-triggered deployments via GitHub → Jenkins → Kubernetes."
+      outcomes: "Reduced deployment time by 85% through automated image builds, ECR pushes, and Kubernetes rollouts; enhanced code quality and security with SonarCloud and Snyk scans; achieved seamless, webhook-triggered deployments via GitHub → Jenkins → Kubernetes"
     },
     {
       title: "Cloud Infrastructure Automation",
-      description: "Automated provisioning of a scalable, secure cloud infrastructure using Infrastructure as Code (IaC) principles with Terraform and Bash scripting.",
+      description: "Automated provisioning of a scalable, secure cloud infrastructure using Infrastructure as Code (IaC) principles with Terraform and Bash scripting",
       tags: ["Bash", "Terraform", "AWS"],
       github: "https://github.com/SirOlisa/ci-cd-infrastructure",
-      outcomes: "Enabled single-command deployment of cloud resources; ensured consistent, repeatable infrastructure setups; reduced manual configuration errors and setup time by 90%."
+      outcomes: "Enabled single-command deployment of cloud resources; ensured consistent, repeatable infrastructure setups; reduced manual configuration errors and setup time by 90%"
     }
   ];
 

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { ThemeContext } from '../context/ThemeContext';
 import { FaJenkins, FaDocker, FaAws, FaChartLine } from 'react-icons/fa';
 import { SiTerraform } from 'react-icons/si';
-import profilePhoto from '../assets/Olisa.jpg'; // Add your photo to assets folder
+import profilePhoto from '../assets/face.jpg'; // Add your photo to assets folder
 
 
 const PurpleSpan = styled.span`
@@ -124,14 +124,14 @@ const Home = () => {
                 <PurpleSpan className="hero-name"> Madubuike Olisa </PurpleSpan>
               </h1>
               <div className="lead mb-5 typing-animation">
-                <p>I'm a DevOps enthusiast and aspiring Cloud Native Specialist. I enjoy transforming code into resilient and scalable cloud applications. My hands-on experience includes deploying full-stack applications using tools like Docker, Jenkins, AWS, and Kubernetes. I am also exploring the integration of AI to optimize deployments, making them faster, safer, and more reliable.</p>
-                <p>Let's build something awesome together!</p>
+                <p>I am a DevOps Engineer and Cloud Native Specialist. I enjoy transforming code into resilient and scalable cloud applications. My hands-on experience includes deploying full-stack applications using tools like Docker, Jenkins, AWS, and Kubernetes. I am also working with AI to optimize deployments, making them faster, safer, and more reliable</p>
+                <p>Let's build something awesome together</p>
               </div>
               <div>
                 <Button href="#contact" variant="primary" size="lg" className="cta-button glow-button me-3">
                   Contact Me
                 </Button>
-                <Button href="#resume" variant={isDarkMode ? "outline-light" : "outline-dark"} size="lg" className="cta-button">
+                <Button href="#resume" variant="primary" size="lg" className="cta-button glow-button me-3">
                   View Resume
                 </Button>
               </div>
@@ -145,7 +145,7 @@ const Home = () => {
           <Col lg={8} className="mx-auto text-center">
             <h2 className="section-title reveal">What I Do</h2>
             <p className="lead mb-5 reveal">
-              I design and implement DevOps solutions that seamlessly bridge development and operations, ensuring smoother, faster and more reliable software delivery.
+              I design and implement DevOps solutions that seamlessly bridge development and operations, ensuring smoother, faster and more reliable software delivery
             </p>
           </Col>
         </Row>
@@ -156,7 +156,7 @@ const Home = () => {
                 <FaJenkins />
               </SkillIconContainer>
               <h3>CI/CD Pipelines</h3>
-              <p>Automated build, test, and deployment workflows using Jenkins, GitHub Actions, and more.</p>
+              <p>Automated build, test, and deployment workflows using Jenkins, GitHub Actions, and more</p>
             </div>
           </Col>
           <Col md={4} className="mb-4 reveal">
@@ -165,7 +165,7 @@ const Home = () => {
                 <SiTerraform />
               </SkillIconContainer>
               <h3>Infrastructure as Code</h3>
-              <p>Terraform and Ansible for provisioning and managing cloud resources.</p>
+              <p>Terraform and Ansible for provisioning and managing cloud resources</p>
             </div>
           </Col>
           <Col md={4} className="mb-4 reveal">
@@ -174,7 +174,7 @@ const Home = () => {
                 <FaDocker />
               </SkillIconContainer>
               <h3>Containerization</h3>
-              <p>Docker and Kubernetes for container orchestration and microservices architecture.</p>
+              <p>Docker and Kubernetes for container orchestration and microservices architecture</p>
             </div>
           </Col>
         </Row>
@@ -185,7 +185,7 @@ const Home = () => {
                 <FaAws />
               </SkillIconContainer>
               <h3>Cloud & AWS</h3>
-              <p>Hands-on experience with AWS services like EC2, VPC, S3, IAM, RDS, and EKS for cloud-based deployments.</p>
+              <p>Hands-on experience with AWS services like EC2, VPC, S3, IAM, RDS, and EKS for cloud-based deployments</p>
             </div>
           </Col>
           <Col md={4} className="mb-4 reveal">
@@ -194,7 +194,7 @@ const Home = () => {
                 <FaChartLine />
               </SkillIconContainer>
               <h3>Monitoring & Logging</h3>
-              <p>Using tools like Prometheus, Grafana, and AWS CloudWatch to monitor system performance and troubleshoot issues effectively.</p>
+              <p>Using tools like Prometheus, Grafana, and AWS CloudWatch to monitor system performance and troubleshoot issues effectively</p>
             </div>
           </Col>
         </Row>
