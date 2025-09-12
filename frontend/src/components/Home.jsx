@@ -121,17 +121,17 @@ const Home = () => {
             <Col lg={8} className="text-center text-lg-start">
               <h1 className="display-4 fw-bold mb-4 gradient-text">
                 <span className="hero-header">Hey there! I'm</span><br/>
-                <PurpleSpan className="hero-name"> Madubuike Olisa </PurpleSpan>
+                <PurpleSpan className="hero-name">Madubuike Olisa</PurpleSpan>
               </h1>
               <div className="lead mb-5 typing-animation">
-                <p>I am a DevOps Engineer and Cloud Native Specialist. I enjoy transforming code into resilient and scalable cloud applications. My hands-on experience includes deploying full-stack applications using tools like Docker, Jenkins, AWS, and Kubernetes. I am also working with AI to optimize deployments, making them faster, safer, and more reliable</p>
+                <p>As a seasoned DevOps Engineer and Cloud Native Specialist with 3+ years of experience, I transform code into resilient and scalable cloud applications. My hands-on experience includes deploying full-stack applications using tools like Docker, Jenkins, AWS, and Kubernetes both locally and internationally. I am also working with AI to optimize deployments, making them faster, safer, and more reliable</p>
                 <p>Let's build something awesome together</p>
               </div>
               <div>
                 <Button href="#contact" variant="primary" size="lg" className="cta-button glow-button me-3">
                   Contact Me
                 </Button>
-                <Button href="#resume" variant={isDarkMode ? "outline-light" : "outline-dark"}  size="lg" className="cta-button glow-button me-3">
+                <Button href="#resume" variant={isDarkMode ? "outline-light" : "outline-dark"}  size="lg" className="cta-button glow-button me-3 text-white">
                   View Resume
                 </Button>
               </div>
