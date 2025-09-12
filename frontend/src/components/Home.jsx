@@ -85,7 +85,7 @@ const SkillIconContainer = styled.div`
 
 
 const Home = () => {
- // const { isDarkMode } = useContext(ThemeContext);
+  const { isDarkMode } = useContext(ThemeContext);
 
   useEffect(() => {
     // Reveal animation on scroll
@@ -131,7 +131,7 @@ const Home = () => {
                 <Button href="#contact" variant="primary" size="lg" className="cta-button glow-button me-3">
                   Contact Me
                 </Button>
-                <Button href="#resume" variant="primary" size="lg" className="cta-button glow-button me-3">
+                <Button href="#resume" variant={isDarkMode ? "outline-light" : "outline-dark"}  size="lg" className="cta-button glow-button me-3">
                   View Resume
                 </Button>
               </div>
@@ -205,3 +205,4 @@ const Home = () => {
 
 
 export default Home;
+
